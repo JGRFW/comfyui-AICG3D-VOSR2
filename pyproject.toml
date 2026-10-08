@@ -1,0 +1,20 @@
+[project]
+name = "aicg3d-vosr2"
+description = "VOSR2 图像/视频超分辨率放大 ComfyUI 加速节点（AICG3D 整理版）：分块推理、显存调度、SageAttention 加速"
+readme = "README.md"
+keywords = ["VOSR2", "VOSR", "超分辨率", "视频放大", "图片放大", "ComfyUI", "AICG3D"]
+version = "1.0.0"
+license = {text = "Apache-2.0"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/JGRFW/comfyui-AICG3D-VOSR2"
+Documentation = "https://github.com/JGRFW/comfyui-AICG3D-VOSR2#readme"
+
+[tool.comfy]
+PublisherId = "aicg3d"
+DisplayName = "AICG3D VOSR2"
+Icon = ""
+
+[project.license-files]
+include = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
